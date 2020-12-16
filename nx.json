@@ -22,5 +22,26 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "example": {
+      "tags": []
+    },
+    "example-e2e": {
+      "tags": [],
+      "implicitDependencies": ["example"]
+    },
+    "example2": {
+      "tags": []
+    },
+    "example2-e2e": {
+      "tags": [],
+      "implicitDependencies": ["example2"]
+    },
+    "ui": {
+      "tags": []
+    },
+    "ui2": {
+      "tags": []
+    }
+  }
 }
